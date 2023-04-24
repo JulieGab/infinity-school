@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(235, 203, 228);
+}
+form{
+    margin-right: 50%;
+    margin-top: 5%;
+}
+legend{
+    font-family: Verdana;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+label{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+}
+.genero{
+    width: 3%;
+}
+.deficiencia{
+    width: 3%;
+}
+select{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+#cadastrar{
+    width: 20%;
+}

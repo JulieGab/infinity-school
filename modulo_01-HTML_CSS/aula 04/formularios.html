@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - Forumulários</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <form>
+        <fieldset> <!-- Como se fosse uma linha que determina o tamanho do formulário. -->
+            <legend>Cadastro de Clientes</legend> <!--Título, do que se trata. -->
+            <label>Nome:</label> <!-- Indica o que vc vai pedir ao usuário. -->
+            <input type="text" name="nome" placeholder="Maria Jose da Silva"> <!-- Placeholder é um exemplo do que ele deve digitar.--> 
+            <label>CPF:</label>
+            <input type="text" name="cpf" placeholder="000.000.000-00"> <!-- Texto pq tem presença de pontos e não faremos operações matemáticas.-->
+            <label>Telefone:</label>
+            <input type="text" name="telefone" placeholder="(00) 00000-0000">
+            <label>Data de nascimento</label>
+            <input type="date" name="datNasc">
+            <br>
+            <label>Gênero:</label><br>
+            <label>Feminino</label>
+            <input checked class="genero" type="radio" id="feminino" name="genero" value="feminino">
+            <label>Masculino</label>
+            <input class="genero" type="radio" id="masculino" name="genero" value="masculino"> 
+            <label>Não binário</label>
+            <input class="genero" type="radio" id="não binário" name="genero" value="naoBin">
+            <br>
+            <label>E-mail:</label>
+            <input type="email" name="email">
+            <br>
+            <label>Deficiência:</label><br>
+            <label>Não</label>
+            <input type="checkbox" class="deficiencia" name="nao" id="nao">      
+            <label>Física</label>
+            <input type="checkbox" class="deficiencia" name="fisica" id="fisica">
+            <label>Visual</label>
+            <input type="checkbox" class="deficiencia" name="visual" id="visual">
+            <label>Auditiva</label>
+            <input type="checkbox" class="deficiencia" name="auditiva" id="auditiva">
+            <br>
+            <label>Município:</label>
+            <select>
+				<option value="maracanau">Maracanaú</option>
+				<option value="caucaia">Caucaia</option>
+				<option value="fortaleza">Fortaleza</option>
+			</select>
+            <br>
+            <label>Comenário</label><br>
+            <textarea name="comentario" cols="50" rows="10"></textarea>
+
+            <input type="submit" name="Cadastrar" id="cadastrar" value="cadastrar">
+
+        </fieldset>
+    </form>
+</body>
+</html>

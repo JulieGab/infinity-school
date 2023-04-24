@@ -1,0 +1,67 @@
+<!-- Criar o formulário apresentado pela professora -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="css/style.exercicio.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome:</label>
+            <input type="text" name="nome"><br>
+            <label>Endereço:</label>
+            <input type="text" name="endereco"><br>
+            <label>Cidade:</label>
+            <input type="text" name="cidade"><br>
+            <label>Estado:</label>
+            <select>
+                <option value="sao paulo">São Paulo</option>
+                <option value="fortaleza">Ceará</option>
+                <option value="maranhao">Maranhão</option>
+                <option value="rio grande do sul">Rio Grande do Sul</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label>Natureza do Cargo</label><br>        
+            <input type="radio" id="gerencia" name="radioGroup" value="Gerência">
+            <label for="gerencia">Gerência</label>
+            <input checked type="radio" id="financeiro" name="radioGroup" value="Financeiro">
+            <label for="financeiro">Financeiro</label>
+            <input type="radio" id="recepcao" name="radioGroup" value="Recepção">
+            <label for="recepcao">Recepção</label>
+            <input type="radio" id="administrativo" name="radioGroup" value="Administrativo">
+            <label for="administrativo">Administrativo</label>
+            <input type="radio" id="juridico" name="radioGroup" value="Jurídico">
+            <label for="Jurídico">Jurídico</label>
+            <br><br>
+            <label>Área de interesse</label><br>
+            <input type="checkbox" id="computacao" name="checkGroup" value="Computação">
+            <label for="computacao">Computação</label>
+            <input type="checkbox" id="biologia" name="checkGroup" value="Biologia">
+            <label for="Biologia">Biologia</label>
+            <input type="checkbox" id="meio_ambiente" name="checkGroup" value="meioAmbiente"
+            <label for="meio_ambiente">Meio Ambiente</label>
+            <input type="checkbox" id="engenharia" name="checkGroup" value="engenharia">
+            <label for="engenharia">Engenharia</label>
+            <input type="checkbox" id="historia" name="checkGroup" value="historia">
+            <label for="historia">História</label>
+            <br><br>
+            <label for="textArea">Mini-currículo:</label>
+            <textarea id="textArea" name="mini_curiiculo" rows="5" cols="44" ></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar" formaction="limpa-formulario.php">
+    </form><br>
+    <!-- <button>Enviar</button>
+    <button>Limpar</button> -->
+</body>
+</html>
