@@ -1,0 +1,42 @@
+h2 {
+  text-align: left;
+}
+
+.imc {
+  background-color: #5d86df;
+  background-size: 10px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #3f6ce7;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 300px ;
+  }
+  
+  button:hover {
+    background-color: #353691;
+  }
+  
